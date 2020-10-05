@@ -1,0 +1,21 @@
+.bg-blue {
+  background-color: #00288F;
+  color: white;
+}
+
+li, a {
+  display: inline;
+  margin-top: 0.5rem;
+  text-decoration: none;
+  color: white;
+}
+.hidden-sm {
+  float: right;
+  position: relative;
+  left: 22rem;
+  bottom: 3.5rem;
+}
+
+.glyphicon {
+  font-size: 2rem;
+}
