@@ -1,6 +1,7 @@
 .bg-blue {
   background-color: #00288F;
   color: white;
+  width: 100%;
 }
 
 li, a {
@@ -18,4 +19,18 @@ li, a {
 
 .glyphicon {
   font-size: 2rem;
+}
+
+.container-header {
+  background-color: lightgreen;
+  height: 100%;
+  padding: 5%;
+}
+.raw-photo {
+  text-align: center;
+}
+
+.central-img {
+  border: 1px solid black;
+  border-radius: 50%;
 }
