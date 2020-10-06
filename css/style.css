@@ -34,33 +34,29 @@ li, a {
 }
 
 .central-img {
-  border: 1px solid black;
-  border-radius: 50%;
+ height: 150px;
 }
 
-/*main-one*/
-.container-main-one {
-  margin: 10% 10%;
+img {
+  width: 100%;
 }
-.raw-main-one {
-  text-align: center;
-}
-
 .photo-main {
-  border: 1px solid black;
-  text-align: center;
+  padding-top: 1rem;
 }
-
-/*main two */
+.container-main-one {
+  height: 100%;
+}
 
 .container-main-two {
   height: 100%;
-  margin-top: 8rem;
-  text-align: center;
-  margin: 25% 0;
-  padding: 2rem;
   background-color: lightgreen;
 }
 .left, .right {
   background-color: lightgreen;
+}
+
+.btn {
+  background-color: lightgreen;
+  float: left;
+  margin: 0.5rem;
 }
