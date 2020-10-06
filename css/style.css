@@ -12,12 +12,44 @@ li, a {
   color: white;
 }
 
+.padd-5 {
+padding-left: 15%;
+}
+
+.line {
+  height: 5px;
+  width: 40px;
+  border: 1px solid white;
+  display: inline-block;
+  background-color: white;
+  line-height: 5px;
+  vertical-align: middle;
+}
+.line-bk {
+ background-color: black;
+ border: 1px solid black;
+}
+
+i.fa-star {
+  line-height: 5px;
+  vertical-align: middle;
+}
+.star-font {
+  font-size: 30px;
+}
 .hidden-sm {
   float: right;
   position: relative;
   left: 22rem;
   bottom: 3.5rem;
 }
+
+.style-form {
+  border: none;
+  border-bottom: 1px solid gray;
+  border-radius: 0px;
+}
+
 
 .glyphicon {
   font-size: 2rem;
@@ -28,6 +60,7 @@ li, a {
   height: 100%;
   padding: 5%;
   text-align: center;
+  color: white;
 }
 .row-photo {
   text-align: center;
@@ -51,13 +84,22 @@ img {
   height: 100%;
   background-color: #1abc9c;
   color: white;
+  padding: 2%;
+
 }
 .left, .right {
   background-color: #1abc9c;
 }
+.left {
+  width: 40%;
+  margin-left: 10%;
+}
+.right {
+  width: 40%;
+  margin-right: 10%;
+}
 .bt-dw {
-  background-color: #1abc9c;
-  border: 1px solid white;
+  background-color: #1abc9c
 }
 .btn {
   background-color: #1abc9c;
@@ -74,8 +116,8 @@ img {
 }
 
 .row-footer {
-  margin-left: 25rem;
-  margin-right: 25rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 
 .final {
@@ -90,4 +132,8 @@ img {
   border-radius: 50%;
   padding: 1%;
   margin: 1%;
+}
+
+.color-diff {
+  color: #1abc9c;
 }
